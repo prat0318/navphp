@@ -1,0 +1,116 @@
+Version 4.44	(3:34 AM, December 10, 2011)
+----------------------------------------
+ » bugfix: UTF-8 handling in basic editor (in demo)
+ » bugfix: minor javascript error after delete/move (nulloldficon=true)
+ » added: phpversion() to server info (server.php)
+ » bugfix: utf-8 filename handling (php bug: basename + UTF-8 < php v5.2)
+
+Version 4.43	(6:07 PM, June 2, 2011)
+----------------------------------------
+ » update: README.TXT - Chrome Copy & Paste bug workaround
+ » bugfix: in restrict to homedir
+ » changed: 'save_charset' to 'view_charset' (see config)
+ » added: allow short path names in db (eg 'here' or 'here/there')
+
+Version 4.42	(2:48 AM, June 1, 2011)
+----------------------------------------
+ » added: "Search" to left panel
+ » bugfix: various pages (charset encoding)
+ » bugfix: missing css
+ » added: extract to bottom icon bar
+ » added: move
+ » bugfix: problem with copy (since base64 encode)
+ » bugfix: fix 'force thumbnail' regression
+
+Version 4.41	(4:48 PM, May 30, 2011)
+----------------------------------------
+ » added: windows-rounded.css
+ » added: rounded.css
+ » added: choose save_charset (best UTF-8) (see config)
+ » bugfix: README.TXT (charset encoding)
+
+Version 4.40	(6:23 PM, January 14, 2011)
+----------------------------------------
+ » changed thumbnail view to 150 pixels
+ » bugfix: fixed warning notices in login (on some servers)
+ » bugfix: potential interface error after saving files
+ » Added "headers.php" to help with trouble shouting future server & browser issues
+ » Changed back button in editor, no longer uses history.back() (could sometimes caused problems)
+ » Added "Script Filename" to server info - for "View in Browser" settings
+ » Added "View in Browser" to left panel - see config for more details
+ » Added "Explore from Here" to left panel
+ » bugfix: dots in layout of left panel changed to &bull;
+ » bugfix: saving utf-8 files
+
+Version 4.39	(10:48 PM, August 07, 2009)
+----------------------------------------
+ » bugfix: rdonly in multi-user mode
+ » bugfix: displaying utf-8 file names
+
+Version 4.38	(8:14 PM, March 21, 2009)
+----------------------------------------
+ » bugfix: file upload
+ » bugfix: homedir in multi-user mode
+
+Version 4.37	(12:56 AM, January 23, 2009)
+----------------------------------------
+ » New session based login
+ » New re-wrote authenticate function
+ » Enhanced 'relative path'
+ » bugfix: Download as zip
+ » bugfix: Security bugfix on 'download'
+ » bugfix: Go button fix
+
+Version 4.32	(1:25 AM, July 09, 2008)
+----------------------------------------
+ » Path now relative to 'home dir'
+ » Compression now handled by 'ob_gzhandler'
+ » bugfix: File upload bug
+ » bugfix: File copy
+ » bugfix: Refresh current folder
+ » bugfix: File name saved with editor
+ » bugfix: file download
+ » bugfix: download file names containing spaces
+
+Version 4.3		(9:23 PM, Jan 14, 2008)
+-----------------------------------------
+ » Arrange icons by size
+ » Bug fix on files with special chars (now uses base-64 encoding).
+ » New file task 'Open in code editor'.
+ » Some ajax fixes.
+ » New Quick help
+ » Image tooltip
+
+Version 4.2		(1:00 PM, Sep 25, 2007)
+-----------------------------------------
+ » Multiple user support with MySQL
+ » New code editor with syntax hilighting
+ » Arrange icons by 'name' & 'type'
+ » Copy now works for non-empty folders also
+ » A new set of icons
+ » Download process changed slightly
+ » Other small rendering fixes.
+ 
+Version 4.0		(9:38 PM; May 07, 2007)
+--------------------------------------
+ » New tool tips 'info' and 'error'
+ » A bug fix on chmod
+ » Small changes in behaviour of non-editable files, html files etc.
+ » A bug fix on 'download folder as zip' (of empty folders)
+ » A bug fix on filenames with quotes.
+
+Version 3.21
+----------------------------
+ » New clean & tidy thumbnails.
+ » Customized context menu for zip,html,image files.
+
+Version 3.2		(9:36 PM; Aug 16, 2006)
+-----------------------------------------
+ » Keyboard shortcuts for file manipulation.
+ » New gzip deflate encoding gives you rocket speed data transfer!
+   (In a test case a 120 KB page was compressed to 8 KB!)
+ » Context menu (Supported Browsers only)
+ » OEdit integration (Supported Browsers only), which is a light-weight WYSIWYG
+   (visual) html editor.
+ » New configure dialog.
+ » A big security hole and some minor bugs fixed!

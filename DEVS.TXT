@@ -1,0 +1,26 @@
+			For Developers
+			==============
+ PHP Navigator is very tiny & light weight compared to other file managers.
+Here are some useful information for developers.
+
+Files
+=====
+1. windows.php: It is the script that handles requests and decide which action to
+   perform based on the request. It also calls the functions for authenticating, client
+   browser features detection (AJAX, Resolution etc).
+
+2. explorer.php: contains the core function explore, which lists the files/folders in 
+   the current directory.
+
+3. functions.php: contains a lot of cool functions like upload, filestatus,
+   authenticate, fileicon, download etc.
+
+4. Action files: actions like recursive delete, new folder, extract etc.
+
+5. JavaScripts: In AJAX mode, files 'windows.js' and 'ajax.js' are loaded, while
+   in normal mode, 'windows.js' and 'normal.js' are loaded.
+
+6. I use 'zip.lib.pbp' for zipping and 'pclzip.class.php' for unzipping.
+
+7. The file 'thumb.php' handles thumbnail of images. You can refer this file as
+   <img src="thumb.php?img=someimgfile">
